@@ -289,3 +289,44 @@ select
 .main1 .advices > div .div2 a:visited {
     color: #e2c38a;
 }
+
+
+.main2
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 597px;
+    background-image: url(../images/background-main2.jpg);
+    background-color: #fafafa;
+    background-size: 1440px 350.5px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-bottom: 87px;
+    padding-top: 75px;
+}
+
+.main2 div h3, p
+{
+    margin: 0;
+}
+.main2 div
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 100px;
+}
+.main2 div h3
+{
+    font-size: calc(2rem + 1.6vh);
+    padding-bottom: 12px;
+}
+.main2 div p
+{
+    font-size: calc(0.8rem + 0.4vh);
+}
