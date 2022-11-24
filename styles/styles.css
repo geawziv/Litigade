@@ -190,3 +190,102 @@ select
     background: url(../images/arrow.svg) no-repeat right;
     background-position-x: 94%;
 }
+
+
+.main1
+{
+    height: 575px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 87px;
+}
+.main1-text
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 110px;
+}
+.main1-text h2
+{
+    margin: 0;
+    font-size: calc(2rem + 1.6vh);
+}
+.main1-text p
+{
+    margin: 0;
+    font-size: calc(0.8rem + 0.4vh);
+}
+.main1 .advices
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 73%;
+}
+.main1 .advices > div
+{
+    width: 31.5%;
+    height: 385px;
+}
+.main1 .advices > div .div1
+{
+    position: relative;
+    z-index: 1;
+    background-color: #f6e4d7;
+    height: 152px;
+    border-radius: 10px;
+}
+.main1 .advices > div .div1 div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 132px;
+    width: 100%;
+}
+.main1 .advices > div .div1 div p
+{
+    margin: 0;
+    font-size: calc(0.8rem + 0.8vh);
+    margin-left: 15px;
+    margin-bottom: 1px;
+}
+.main1 .advices > div .div2
+{
+    position: relative;
+    top: -20px;
+    z-index: 1;
+    height: 189px;
+    border: 1px solid #a9d6ff;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 0 34px 50px;
+}
+.main1 .advices > div .div2 p 
+{
+    margin: 0;
+    line-height: 24px;
+    font-size: calc(0.8rem + 0.2vh);
+}
+.main1 .advices > div .div2 .big-p
+{
+    width: 164px;
+}
+.main1 .advices > div .div2 a
+{
+    outline: none;
+    text-decoration: none;
+    color: #e2c38a;
+}
+.main1 .advices > div .div2 a:visited {
+    color: #e2c38a;
+}
