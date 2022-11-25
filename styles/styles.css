@@ -183,11 +183,12 @@ header article form div input, select
     border: 1px solid #dbdbdb;
     padding: 0 0 0 18px;
 }
-select
+header article form div select
 {
     width: 245px;
     appearance: none;
     background: url(../images/arrow.svg) no-repeat right;
+    background-color: #f9f9f9;
     background-position-x: 94%;
 }
 
@@ -495,4 +496,85 @@ select
 {
     margin: 0;
     font-size: calc(0.4rem + 0.8vh);
+}
+
+.main5
+{
+    height: 491px;
+    padding-left: 195px;
+    background-image: url(../images/background-main5.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-bottom: 99px;
+}
+
+.main5 .main5-text
+{
+    height: 74px;
+}
+.main5 .main5-text p
+{
+    margin: 0;
+    font-size: calc(1rem + 0.2vh);
+}   
+.main5 .main5-text h4
+{
+    margin: 0;
+    font-size: calc(2rem + 1vh);
+}
+
+.main5 form
+{
+    width: 48%;
+    height: 283px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.main5 form div
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main5 form input, select
+{
+    width: 265px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    padding: 0 0 0 18px;
+    margin-bottom: 20px;
+}
+.main5 form select
+{
+    width: 285px;
+    appearance: none;
+    background: url(../images/arrow.svg) no-repeat right;
+    background-position-x: 94%;
+    background-color: white;
+}
+.main5 textarea
+{
+    padding: 16px 0 0 26px;
+    resize: none;
+    margin-bottom: 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    font-size: calc(0.8rem + 0.2vw);
+}
+
+.main5 button
+{
+    height: 58px;
+    width: 215px;
+    background: #784F33;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: calc(0.7rem + 0.1vw);
 }
