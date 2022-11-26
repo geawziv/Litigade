@@ -10,6 +10,10 @@ body
     margin: 0 auto;
 }
 
+h1, h2, h3, h4, h5, p
+{
+    font-family: 'Martel', serif;
+}
 
 header
 {
@@ -57,7 +61,7 @@ nav > div
 }
 h1
 {
-    font-size: calc(1.2rem + 0.9vh);
+    font-size: calc(1rem + 0.8vh);
     margin: 0;
 }
 nav div ul 
@@ -85,7 +89,7 @@ header article
 
 header article .info
 {
-    width: 60%;
+    width: 600px;
     height: 42%;
     display: flex;
     flex-direction: column;
@@ -95,14 +99,19 @@ header article .info
 header article .info h2
 {
     margin: 0;
-    font-size: calc(3rem + 1.6vh);
+    font-size: calc(2.6rem + 1.6vh);
+    font-weight: 900;
+    line-height: 65px;
+    color: #242a40;
+    width: 700px;
 }
 header article .info p
 {
     margin: 0;
-    font-size: calc(1rem + 0.8vh);
+    font-size: calc(0.8rem + 0.8vh);
     width: 85%;
-    padding-bottom: 9px;
+    color: #aaabad;
+    font-weight: 500;
 }
 header article .info .buttons
 {
@@ -113,7 +122,7 @@ header article .info .buttons
 }
 header article .info .buttons button
 {
-    font-size: calc(0.7rem + 0.3vh);
+    font-size: calc(0.5rem + 0.3vh);
     border-radius: 30px;
     height: 45px;
 }
@@ -148,7 +157,7 @@ header article form
 }
 header article form h3
 {
-    font-size: calc(1rem + 1.3vh);
+    font-size: calc(0.8rem + 1.3vh);
     margin: 0;
 }
 header article form .submit
@@ -158,7 +167,7 @@ header article form .submit
     border-radius: 5px;
     height: 58px;
     width: 248px;
-    font-size: calc(0.6rem + 0.4vh);
+    font-size: calc(0.4rem + 0.4vh);
     color: white;
     margin: 0;
 }
@@ -172,7 +181,7 @@ header article form div
 }
 header article form div label
 {
-    font-size: calc(0.9rem + 0.2vh);
+    font-size: calc(0.7rem + 0.2vh);
 }
 header article form div input, select
 {
@@ -215,12 +224,12 @@ header article form div select
 .main1-text h2
 {
     margin: 0;
-    font-size: calc(2rem + 1.6vh);
+    font-size: calc(1.8rem + 1.6vh);
 }
 .main1-text p
 {
     margin: 0;
-    font-size: calc(0.8rem + 0.4vh);
+    font-size: calc(0.6rem + 0.4vh);
 }
 .main1 .advices
 {
@@ -253,7 +262,7 @@ header article form div select
 .main1 .advices > div .div1 div p
 {
     margin: 0;
-    font-size: calc(0.8rem + 0.8vh);
+    font-size: calc(0.6rem + 0.8vh);
     margin-left: 15px;
     margin-bottom: 1px;
 }
@@ -275,7 +284,7 @@ header article form div select
 {
     margin: 0;
     line-height: 24px;
-    font-size: calc(0.8rem + 0.2vh);
+    font-size: calc(0.6rem + 0.2vh);
 }
 .main1 .advices > div .div2 .big-p
 {
@@ -324,12 +333,12 @@ header article form div select
 }
 .main2 div h3
 {
-    font-size: calc(2rem + 1.6vh);
+    font-size: calc(1.6rem + 1.6vh);
     padding-bottom: 12px;
 }
 .main2 div p
 {
-    font-size: calc(0.8rem + 0.4vh);
+    font-size: calc(0.6rem + 0.4vh);
 }
 
 
@@ -357,12 +366,12 @@ header article form div select
 .main3-text h2
 {
     margin: 0;
-    font-size: calc(2rem + 1.6vh);
+    font-size: calc(1.8rem + 1.6vh);
 }
 .main3-text p
 {
     margin: 0;
-    font-size: calc(0.8rem + 0.4vh);
+    font-size: calc(0.6rem + 0.4vh);
 }
 .main3 .comments
 {
@@ -399,14 +408,14 @@ header article form div select
 .main3 .comments > div .div1 div span
 {
     margin: 0;
-    font-size: calc(0.4rem + 0.8vh);
+    font-size: calc(0.2rem + 0.8vh);
     margin-bottom: 3px;
     color: #cfa044;
 }
 .main3 .comments > div .div1 div p
 {
     margin: 0;
-    font-size: calc(0.4rem + 0.8vh);
+    font-size: calc(0.2rem + 0.8vh);
     margin-left: 15px;
     margin-bottom: 1px;
 }
@@ -427,7 +436,7 @@ header article form div select
 .main3 .comments > div .div2 p 
 {
     margin: 0;
-    font-size: calc(0.8rem + 0.2vh);
+    font-size: calc(0.6rem + 0.2vh);
     line-height: 24px;
 }
 
@@ -455,12 +464,12 @@ header article form div select
 .main4-text h2
 {
     margin: 0;
-    font-size: calc(2rem + 1.6vh);
+    font-size: calc(1.8rem + 1.6vh);
 }
 .main4-text p
 {
     margin: 0;
-    font-size: calc(0.8rem + 0.4vh);
+    font-size: calc(0.6rem + 0.4vh);
 }
 .main4 .attorneys
 {
@@ -490,12 +499,12 @@ header article form div select
 .main4 .attorneys > div .div1 p
 {
     margin: 0;
-    font-size: calc(0.8rem + 0.7vh);
+    font-size: calc(0.6rem + 0.7vh);
 }
 .main4 .attorneys > div .div1 span
 {
     margin: 0;
-    font-size: calc(0.4rem + 0.8vh);
+    font-size: calc(0.2rem + 0.8vh);
 }
 
 .main5
@@ -517,12 +526,12 @@ header article form div select
 .main5 .main5-text p
 {
     margin: 0;
-    font-size: calc(1rem + 0.2vh);
+    font-size: calc(0.8rem + 0.2vh);
 }   
 .main5 .main5-text h4
 {
     margin: 0;
-    font-size: calc(2rem + 1vh);
+    font-size: calc(1.8rem + 1vh);
 }
 
 .main5 form
@@ -565,7 +574,7 @@ header article form div select
     margin-bottom: 0;
     border: 1px solid #dbdbdb;
     border-radius: 5px;
-    font-size: calc(0.8rem + 0.2vw);
+    font-size: calc(0.6rem + 0.2vw);
 }
 
 .main5 button
@@ -576,7 +585,7 @@ header article form div select
     border: none;
     border-radius: 5px;
     color: white;
-    font-size: calc(0.7rem + 0.1vw);
+    font-size: calc(0.5rem + 0.1vw);
 }
 
 
@@ -596,7 +605,7 @@ header article form div select
     border: none;
     border-radius: 5px;
     color: white;
-    font-size: calc(0.7rem + 0.1vw);
+    font-size: calc(0.5rem + 0.1vw);
 }
 .main6 div
 {
@@ -608,10 +617,133 @@ header article form div select
 .main6 div p
 {
     margin: 0;
-    font-size: calc(0.9rem + 0.2vh);
+    font-size: calc(0.7rem + 0.2vh);
 }   
 .main6 div h4
 {
     margin: 0;
-    font-size: calc(0.6rem + 1vw);
+    font-size: calc(0.4rem + 1vw);
+}
+
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252b42;
+}
+.footer-info
+{
+    height: 142px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1008px;
+    padding-right: 45px;
+    padding-left: 3px;
+    border-bottom: 1px solid #363f66;
+}
+.footer-info h2
+{
+    color: white;
+    font-size: calc(0.8rem + 0.7vw);
+    padding-bottom: 5px;
+}
+.addition
+{
+    height: 310px;
+    width: 1040px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 6px;
+}
+.addition > div:first-child
+{
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addition > div div
+{
+    height: 170px;
+    width: 83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+.addition h3
+{
+    color: white;
+    margin: 0;
+}
+.addition > div div h3 
+{
+    width: 500px;
+}
+.addition ul
+{
+    height: 120px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: white;
+    font-size: calc(0.6rem + 0.2vh);
+}
+.email_div
+{
+    display: flex;
+    flex-direction: column;
+    height: 125px;
+    padding-bottom: 45px;
+}
+.email_div h3 
+{
+    margin-bottom: 20px;
+}
+.email_div form
+{
+    display: flex;
+    align-items: center;
+    width: 321px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.email_div input
+{
+    border: none;
+    width: 205px;
+    height: 58px;
+    padding: 0;
+}
+.email_div .submit
+{
+    width: 116px;
+    height: 58px;
+    background-color: #d0a145;
+    color: white;
+}
+.email_div p
+{
+    font-size: calc(0.5rem + 0.2vh);
+    color: white;
+}
+
+.made-by 
+{   
+    height: 74px;
+    width: 1040px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: calc(0.8rem + 0.2vh);
 }
