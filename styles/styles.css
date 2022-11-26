@@ -578,3 +578,40 @@ header article form div select
     color: white;
     font-size: calc(0.7rem + 0.1vw);
 }
+
+
+.main6
+{
+    height: 142px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 234px 0 195px;
+}
+.main6 button
+{
+    height: 58px;
+    width: 158px;
+    background: #784F33;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: calc(0.7rem + 0.1vw);
+}
+.main6 div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 62px;
+}
+.main6 div p
+{
+    margin: 0;
+    font-size: calc(0.9rem + 0.2vh);
+}   
+.main6 div h4
+{
+    margin: 0;
+    font-size: calc(0.6rem + 1vw);
+}
